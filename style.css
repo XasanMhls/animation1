@@ -1,0 +1,39 @@
+body{
+    background-color: white;
+    padding: 20px;
+}
+.contend_circle{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    position: relative;
+    left: 0;
+    animation-name: circle;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes circle{
+    0%{
+        left: 0;
+        top: 0;
+        background-color: red;
+    }
+    25%{
+        left: 200px;
+        top: 0;
+        background-color: aqua;
+    }
+    50%{
+      top: 200px;
+      left: 200px;
+    }
+    75%{
+        left: 0px;
+        top: 200px;
+    }
+    100%{
+        left: 0;
+        top: 0;
+    }
+}
